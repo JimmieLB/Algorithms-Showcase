@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #EFE9E7;
+  /* EFE9E7 #DDD1C7*/
+}
+
+.header {
+  display: block;
+  width: 100%;
+  height: 75px;
+  background-color: #1d2951;
+
+}
+
+.dropdown {
+  display: inline-flex;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  align-content: center;
+  color: #EFE9E7;
+}
+
+.dropdown:hover {
+  background-color: #DAE0F2;
+  color: #1d2951;
+}
+
+.dropdown a{
+  display: block;
+  margin: auto;
+}
+
+#defaultCanvas0 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #EFE9E7;
+}
+
+#canvas-container {
+  display:block;
+  width: 100%;
+  height: 100%;
+  background-color: #EFE9E7;
+}
